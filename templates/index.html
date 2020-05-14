@@ -1,0 +1,391 @@
+{% load static %}
+{% static "images" as baseURL%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>KSP</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="{% static 'https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i' %}" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static 'lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/magnific-popup/magnific-popup.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/hover/hover.min.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{% static 'images/logoksp.JPG' %}">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="#header"><img src="{% static 'images/logoksp.JPG' %}" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About Me</a></li>
+          <li><a href="#skills" class="smoothScroll">Skills</a></li>
+          <li><a href="#projects" class="smoothScroll">Projects</a></li>
+          <li><a href="#edu" class="smoothScroll">Education</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h2>Hello</h2>
+        <h1>I'm <span class="typed"></span></h1><br>
+        <p><b>Welcome to my website. I’m thrilled you’re here. I have so much I want to share and am excited to introduce you to my passions and current areas of interest. If you have any questions or comments, please don’t hesitate to get in touch.</b></p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.facebook.com/sai.pranith.372"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sai-praneeth-865360172/"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/saipraneethkeerthi"><i class="ion-social-github"></i></a></li>
+        </ul>
+        <form > <button type="submit" class="btn" formaction="https://s.docworkspace.com/d/ACSahQ2W9dJBgZ3whcqdFA" target="_blank">My Resume</button><a  href="https://github.com/saipraneethkeerthi/profile/raw/master/KspResume.pdf"><i class="ion-android-download"></i></a></form>
+      </div>
+      
+    </div>
+   
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="{% static 'images/ksp3.png' %}" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+            <h1>My Story</h1>
+            <p class="p-heading">I’ve never wanted to tie myself down to any one path or career, and this site showcases the many journeys I’ve taken. I do many different things, but each project I take on I approach with the greatest enthusiasm and focus. Take the time to explore my writing, visuals, work samples and more. I hope you find it interesting and that it sparks something inside you. </p>
+            <!--p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p-->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="skills"></div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section Skills -->
+  <div id="services">
+    <div class="container">
+      <h1>SKILLS</h1><br><br>
+        <div class="services-carousel owl-theme">
+          
+
+          <div class="services-block">
+
+            <i class="ion-ios-browsers-outline"></i>
+            <span>UI/UX DESIGN</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:30%;background-color: #7FB7FA;">30%
+              </div>
+            </div>
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-python"></i>
+            <span>PYTHON</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:50%;background-color: #7FB7FA;">50%
+              </div>
+            </div>
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>WEB DESIGN</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:50%;background-color: #7FB7FA;">50%
+              </div>
+            </div>
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-android-outline"></i>
+            <span>MOBILE APPS</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:30%;background-color: #7FB7FA;">30%
+              </div>
+            </div>
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-nodejs"></i>
+            <span>NODE JS</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:40%;background-color: #7FB7FA;">40%
+              </div>
+            </div>
+          </div>
+
+
+          <div class="services-block">
+
+            <i class="ion-social-javascript-outline"></i>
+            <span>JAVASCRIPT</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:30%;background-color: #7FB7FA;">30%
+              </div>
+            </div>
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-camera-outline"></i>
+            <span>PHOTOGRAPHY</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">80%
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section Skills -->
+
+
+  <!-- start section projects -->
+  
+  <div class="container" id="projects"><br>
+    <div class="section-title text-center" >
+      <h2>My Projects</h2>
+    </div>
+    
+    <div class="timeline">
+      {% for p in proj %}
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes js--fadeInLeft">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">{{p.name}}</h3>
+          <p>{{p.dec}}</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="{{baseURL}}/{{p.image}}" class="img-fluid" alt="img">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>{{p.date}}</time>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    
+  </div>
+
+  <!-- End section project -->
+
+
+  <!-- start section education -->
+
+  <div class="col-md-12 col-lg-12" id="edu">
+         
+    <div id="tracking">
+       <div class="text-center tracking-status-intransit">
+          <p class="tracking-status text-tight"><b>my education</b></p>
+       </div>
+       <div class="tracking-list">
+         {% for e in edu %}
+          <div class="tracking-item">
+             <div class="tracking-icon status-intransit">
+                <svg class="svg-inline--fa fa-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                   <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path>
+                </svg>
+                <!-- <i class="fas fa-circle"></i> -->
+             </div>
+             <div class="tracking-date">{{e.year}}</div>
+             <div class="tracking-content">{{e.study}}
+               <span><li>{{e.college}}</li></span>
+               {% if e.branchIs %}
+              <span><li>{{e.branch}}</li></span>{% endif %}
+              <span><li>CGPA --> {{e.cgpa}}</li></span>
+            </div>
+          </div>
+          {% endfor %}
+          
+       </div>
+    </div>
+ </div>
+  <!-- End section education -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>3-62, Ganesh Street</span></li>
+                <li><span>JANGAON</span></li>
+                <li><span>+91 7386330794</span></li>
+                <li><span>saipranithkeerthi228@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-github"></i></a></li>
+          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights <b><i>keerthi sai praneeth</i></b>.</p>
+      <p> All rights reserved.</p>
+
+     
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+
+  
+
+  <!-- JavaScript Libraries -->
+  <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'lib/typed/typed.js' %}"></script>
+  <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'lib/magnific-popup/magnific-popup.min.js' %}"></script>
+  <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="{% static 'contactform/contactform.js' %}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
