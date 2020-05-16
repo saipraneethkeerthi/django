@@ -1,0 +1,767 @@
+/** Width between 1200x to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 1200px) {
+
+}
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 2rem;
+  }
+}
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Navbar */
+  nav {
+    padding: 10px 50px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+
+
+#header .header-content {
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content:inherit;
+  flex-direction: column;
+  
+}
+
+.header-content h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  
+}
+.header-content h2 {
+  font-size: 25px;
+  font-weight: 700;
+  
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.header-content p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-inline-end: 10cm;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-content .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
+.header-content .list-social li i {
+  color: #fff;
+  font-size: 30px;
+}
+  /* About */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding:0px;
+    border: 20px solid #b8a07e;
+    width: 50%;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top:0%;
+    margin-left: calc(0% - 0px);
+    height: 400px;
+    
+    width: 100%;
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  
+  /* education */
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 767px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  .header-content {
+    height: 50vh;
+    text-align: left;
+    width: 500%;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    
+  }
+  .header-content h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .header-content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .header-content p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    margin-inline-end: 4cm;
+    color:cyan;
+    font-weight: 200;
+  }
+  
+.header-content .list-social li {
+  float:right;
+  margin-right: 50px;
+  
+}
+
+.header-content .list-social li i {
+  color:white;
+  font-size: 30px;
+}
+  
+  /* About */
+  
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  .timeline-nodes:nth-child(odd) h3,
+  .timeline-nodes:nth-child(odd) p {
+  text-align: left
+}
+.timeline-nodes:nth-child(even) {
+  flex-direction: row;
+}
+  .timeline::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 4%;
+  width: 0;
+  border-left: 2px dashed var(--blue);
+  height: 100%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+.timeline h3 {
+  font-size: 1.7rem;
+}
+.timeline p {
+  font-size: 14px;
+}
+.timeline-image {
+  position: absolute;
+  left: 0%;
+  top: 60px;
+  /*transform: translateX(-50%;);*/
+}
+.timeline-nodes:nth-child(odd) .timeline-content::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: auto;
+  right: 100%;
+  width: 0;
+  border-left: 0;
+  border-right: 10px solid var(--blue);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.timeline-nodes:nth-child(even) .timeline-content::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  right: 100%;
+  width: 0;
+  border-right: 10px solid var(--blue);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.timeline-nodes:nth-child(even) .timeline-date {
+  text-align: left;
+}
+.timeline-image::before {
+  width: 65px;
+  height: 65px;
+}
+
+
+  
+  /* education */
+ 
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 600px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 600px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  .timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 3%;
+}
+.timeline-image {
+    position: absolute;
+    left: -5%;
+    }
+.timeline-image::before {
+    width: 60px;
+    height: 60px;
+}
+
+
+  /* education */
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 480px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width:320px) and (max-width: 480px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  .header-content {
+    height: 50vh;
+    text-align: left;
+    width: 500%;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    
+  }
+  .header-content h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .header-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .header-content p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-inline-end: 4cm;
+    color:cyan;
+    font-weight: 200;
+  }
+  
+.header-content .list-social li {
+  float:left;
+  margin-right: 10px;
+  
+}
+
+.header-content .list-social li i {
+  color:white;
+  font-size: 30px;
+}
+.header-content .btn{
+  font-size:medium;
+  box-sizing:unset;
+  float: right;
+}
+.header-content .ion-android-download{
+  float: right;
+  font-size: x-large;
+}
+  /* About */
+  
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  
+  /* education */
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 200px to 400
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width:200px) and (max-width: 400px) {
+  /* Navbar */
+  #header {
+    background: url("../images/ksp1.png") cover;
+    height: 70vh;
+    width: 100%;
+    float: left;
+  }
+  
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  
+  .header-content {
+    height: 20vh;
+    text-align: left;
+    width: 500%;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    
+  }
+  .header-content h1 {
+    font-size: 13px;
+    font-weight: 500;
+   
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: -3px;
+  }
+  .header-content h2 {
+    font-size: 13px;
+    font-weight: 500;
+   margin-top: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  
+  .header-content p {
+    font-size: 10px;
+    letter-spacing: 0px;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    margin-inline-end: 1.5cm;
+    color:cyan;
+    font-weight: 100;
+    word-spacing: 1px;
+    inline-size: 100%;
+  }
+  
+.header-content .list-social li {
+  float:left;
+  margin-right: 10px;
+  
+}
+
+.header-content .list-social li i {
+  color:white;
+  font-size: 20px;
+}
+.header-content .btn{
+  font-size:medium;
+  box-sizing:unset;
+  float: right;
+  padding: 1px 9px;
+  
+}
+.header-content .ion-android-download{
+  float: right;
+  font-size: x-large;
+}
+  /* About */
+ 
+  #about .div-img-bg {
+    padding: 0;
+    margin-top: 10%;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+    
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  
+  /* education */
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+  /* Single page */
+  .entry-comments-body span {
+    display: inline-block;
+    margin-right: 0;
+  }
+}
+/*  100  to  200       */
+@media (min-width:100px) and (max-width: 200px) {
+  /* Navbar */
+  #header {
+    background: url("../images/ksp1.png") repeat scroll center center / cover;
+    height: 70vh;
+    width: 160%;
+  }
+  
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  .header-content {
+    height: 20vh;
+    text-align: left;
+    width: 500%;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    
+  }
+  .header-content h1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .header-content h2 {
+    font-size: 15px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: -.5px;
+  }
+  
+  .header-content p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-inline-end: 1cm;
+    color:cyan;
+    font-weight: 200;
+  }
+  
+.header-content .list-social li {
+  float:left;
+  margin-right: 10px;
+  
+}
+
+.header-content .list-social li i {
+  color:white;
+  font-size: 20px;
+}
+.header-content .btn{
+  font-size:medium;
+  box-sizing:unset;
+  float: right;
+}
+  /* About */
+ 
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 200%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  
+  /* education */
+  
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+  /* Single page */
+  .entry-comments-body span {
+    display: inline-block;
+    margin-right: 0;
+  }
+}
